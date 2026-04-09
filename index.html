@@ -192,10 +192,6 @@
         bgm.play().catch(() => {});
       }
 
-      // support HP + klik
-      window.addEventListener("click", playMusic);
-      window.addEventListener("touchstart", playMusic);
-
       controls.target.set(0, 0, 0);
       controls.enableZoom = true;
       controls.enableRotate = true;
@@ -494,4 +490,3 @@
     </script>
   </body>
 </html>
-
